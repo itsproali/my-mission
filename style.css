@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 h1 {
     font-size: 50px;
@@ -40,10 +40,10 @@ p {
 .top .text{
     width: 45%;
     position: relative;
-    margin: 140px 0 0 0;
+    margin: 120px 0 0 0;
 }
 .top .text h1 {
-    margin-left: 20px;
+    margin: 0 0 20px 20px;
 }
 .line {
     width: 3px;
@@ -102,6 +102,7 @@ p {
 }
 .img-width img {
     width: 100%;
+    height: 250px;
     border-radius: 20px;
 }
 .right-text {
@@ -120,6 +121,12 @@ p {
 
 /* Build Section */
 
+.build {
+    margin-top: 150px;
+}
+.build .img-width {
+    margin: 25px 0 0 0;
+}
 .build h1 {
     text-align: center;
     margin: 0 0 50px;
