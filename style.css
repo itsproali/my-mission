@@ -1,0 +1,146 @@
+/* Basic */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+.orange {
+    color: orange;
+}
+a {
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(45deg, darkorange, orange);
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+p {
+    margin: 15px 0;
+    font-size: 18px;
+    text-align: left;
+    line-height: 150%;
+}
+.content {
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto 100px auto;
+}
+
+/* Top Section */
+
+.top .text{
+    width: 45%;
+    position: relative;
+    margin: 140px 0 0 0;
+}
+.top .text h1 {
+    margin-left: 20px;
+}
+.line {
+    width: 3px;
+    height: 100px;
+    background-color: darkorange;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.image {
+    margin: 70px 0 0 0;
+    width: 55%;
+}
+.image img {
+    margin-left: 100px;
+    width: 80%;
+}
+
+/* My Skills*/
+
+.my-skills h1{
+    text-align: center;
+}
+.my-skills .item {
+    width: 32%;
+    padding: 20px;
+    margin: 30px 10px 30px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.my-skills .item img {
+    width: 40%;
+    margin: 0 auto;
+}
+.my-skills .content .html {
+    background-color: hsl(60, 100%, 87%);
+}
+.my-skills .content .css {
+    background-color: hsla(195, 53%, 79%, 0.3);
+}
+.my-skills .content .learn {
+    background-color: hsla(352, 100%, 85%, 0.3);
+}
+
+/* Middle Section */
+
+.develop {
+    margin: 50px 0;
+}
+.img-width {
+    width: 40%;
+}
+.text-width {
+    width: 60%;
+}
+.img-width img {
+    width: 100%;
+    border-radius: 20px;
+}
+.right-text {
+    padding: 10px 0 0 70px;
+}
+.mid-head {
+    font-size: 35px;
+}
+
+.community {
+    margin: 100px 0;
+}
+.community-text {
+    margin: 20px 70px 0 0;
+}
+
+/* Build Section */
+
+.build h1 {
+    text-align: center;
+    margin: 0 0 50px;
+}
+.build-text h2 {
+    font-size: 40px;
+}
+/* Footer Section */
+
+.footer {
+    width: 100%;
+    height: 130px;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 30);
+}
+footer h2 {
+    font-size: 30px;
+}
+footer p {
+    text-align: center;
+    font-size: 15px;
+}
